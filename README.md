@@ -1,9 +1,9 @@
 # Code 401 Code Challenges
 
 ## Table Of Contents
-Code Challenge 1
+[Code Challenge 1](https://github.com/Overholtk/data-structures-and-algorithms/tree/main/challenges/ArrayReverse)
 
-Code Challenge 2
+[Code Challenge 2](https://github.com/Overholtk/data-structures-and-algorithms/tree/main/challenges/ArrayShift)
 
 Code Challenge 3
 
