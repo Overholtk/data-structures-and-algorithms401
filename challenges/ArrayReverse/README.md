@@ -8,4 +8,4 @@ I used a while loop for this challenge because it requires fewer mathematical op
 
 ## Solution
 
-[Whiteboard Solution](https://github.com/Overholtk/data-structures-and-algorithms/blob/array-reverse/IMG_20210111_154635__01.jpg)
+![Whiteboard Solution](https://github.com/Overholtk/data-structures-and-algorithms/blob/array-reverse/IMG_20210111_154635__01.jpg)
