@@ -8,4 +8,4 @@ I chose to use a variable accessible to the whole method and then update it, ret
 
 ## Solution
 
-![Whiteboard Solution]()
+![Whiteboard Solution](https://github.com/Overholtk/data-structures-and-algorithms/blob/array-binary-search/assets/CC3%20whiteboard.png)
