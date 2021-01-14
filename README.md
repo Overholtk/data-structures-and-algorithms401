@@ -5,7 +5,7 @@
 
 [Code Challenge 2](https://github.com/Overholtk/data-structures-and-algorithms/tree/main/challenges/ArrayShift)
 
-Code Challenge 3
+[Code Challenge 3](https://github.com/Overholtk/data-structures-and-algorithms/tree/array-binary-search/challenges/BinarySearch)
 
 Code Challenge 4
 
