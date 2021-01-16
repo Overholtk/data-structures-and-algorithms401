@@ -1,0 +1,13 @@
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.exe
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.deps.json
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.runtimeconfig.json
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.runtimeconfig.dev.json
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.dll
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.pdb
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.csprojAssemblyReference.cache
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.AssemblyInfoInputs.cache
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.AssemblyInfo.cs
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.dll
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.pdb
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.genruntimeconfig.cache
