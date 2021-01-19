@@ -80,5 +80,69 @@ namespace LinkedListTests
             Assert.Equal("4000 => 2 => 50 => NULL", testString);
             
         }
+
+        [Fact]
+        public void Append_To_List()
+        {
+            LinkedList testList = new LinkedList();
+            testList.Insert(50);
+            testList.Insert(2);
+            testList.Insert(4000);
+
+            Assert.Equal(19, testList.append(19));
+        }
+
+        [Fact]
+        public void Append_Multiple_Values()
+        {
+            LinkedList testList = new LinkedList();
+            testList.Insert(50);
+            testList.append(60);
+            testList.append(70);
+
+            Assert.Equal(80, testList.append(80));
+        }
+
+        [Fact]
+        public void Insert_Node_Before()
+        {
+            LinkedList testList = new LinkedList();
+            testList.Insert(50);
+            testList.Insert(2);
+            testList.Insert(4000);
+            Assert.Equal(2, testList.insertBefore(60, 2));
+
+        }
+
+        [Fact]
+        public void Insert_Node_Head()
+        {
+            LinkedList testList = new LinkedList();
+            testList.Insert(50);
+            testList.Insert(2);
+            testList.Insert(4000);
+            Assert.Equal(4000, testList.insertBefore(60, 4000));
+        }
+
+        [Fact]
+        public void Insert_Node_After()
+        {
+            LinkedList testList = new LinkedList();
+            testList.Insert(50);
+            testList.Insert(2);
+            testList.Insert(4000);
+
+            Assert.Equal(60, testList.insertAfter(60, 2));
+        }
+
+        [Fact]
+        public void Insert_Node_Tail()
+        {
+            LinkedList testList = new LinkedList();
+            testList.Insert(50);
+            testList.Insert(2);
+            testList.Insert(4000);
+            Assert.Equal(60, testList.insertAfter(60, 50));
+        }
     }
 }

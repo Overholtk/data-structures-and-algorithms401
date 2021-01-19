@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\challenges"
+    "\\challenges",
+    "\\challenges\\LinkedList",
+    "\\challenges\\LinkedList\\LinkedList"
   ],
+  "SelectedNode": "\\challenges\\LinkedList\\LinkedList\\LinkedList.cs",
   "PreviewInSolutionExplorer": false
 }
