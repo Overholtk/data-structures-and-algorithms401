@@ -132,7 +132,17 @@ namespace LinkedListTests
             testList.Insert(2);
             testList.Insert(4000);
 
-            Assert.Equal(4000, testList.insertAfter(60, 2));
+            Assert.Equal(60, testList.insertAfter(60, 2));
+        }
+
+        [Fact]
+        public void Insert_Node_Tail()
+        {
+            LinkedList testList = new LinkedList();
+            testList.Insert(50);
+            testList.Insert(2);
+            testList.Insert(4000);
+            Assert.Equal(60, testList.insertAfter(60, 50));
         }
     }
 }

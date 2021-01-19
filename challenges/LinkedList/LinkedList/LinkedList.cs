@@ -89,7 +89,7 @@ namespace LinkedLists
                 }
                 current = current.Next;
             }
-            return newNode.Next.Value;
+            return newNode.Value;
         }
     }
 }
