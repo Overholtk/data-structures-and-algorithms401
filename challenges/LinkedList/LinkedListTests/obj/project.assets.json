@@ -5638,7 +5638,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\moreg\\.nuget\\packages\\": {}
+    "C:\\Users\\moreg\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -5649,9 +5650,13 @@
       "packagesPath": "C:\\Users\\moreg\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\moreg\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\LinkedList\\LinkedListTests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\moreg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

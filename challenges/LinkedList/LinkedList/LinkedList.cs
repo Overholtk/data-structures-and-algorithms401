@@ -91,5 +91,27 @@ namespace LinkedLists
             }
             return newNode.Value;
         }
+
+        public int kthFromEnd(int value)
+        {
+            if(value < 0) { throw new ArgumentException("Try again with a positive value!");}
+            int counter = 1;
+            Node node = Head;
+            while(node != null)
+            {
+                counter++;
+            }
+            int index = counter - value;
+            if( index < 0) { throw new Exception("Value was longer than the length of the list"); }
+            if(index == 0) { index = 1; }
+            node = Head;
+            for(int i = 1; i < index; i++)
+            {
+                node = node.Next;
+            }
+
+            return node.Value;
+
+        }
     }
 }

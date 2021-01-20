@@ -144,5 +144,11 @@ namespace LinkedListTests
             testList.Insert(4000);
             Assert.Equal(60, testList.insertAfter(60, 50));
         }
+
+        [Fact]
+        public void Kth_Value_Too_Large()
+        {
+
+        }
     }
 }
