@@ -27,3 +27,6 @@ insertBefore takes in two values as parameters, one value to anchor the new node
 
 ### insertAfter:
 Similar to insert before, but inserts the node after the node who's value matches the parameter.
+
+### kthFromEnd
+kthFromEnd returns the value of a specific node found by iterating backwards along the array.
