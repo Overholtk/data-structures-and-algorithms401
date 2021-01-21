@@ -30,3 +30,6 @@ Similar to insert before, but inserts the node after the node who's value matche
 
 ### kthFromEnd
 kthFromEnd returns the value of a specific node found by iterating backwards along the array.
+
+### zip:
+loops through two linked lists and zips them together with the format A - B - A - B - A - B by resetting the nodes.Next values
