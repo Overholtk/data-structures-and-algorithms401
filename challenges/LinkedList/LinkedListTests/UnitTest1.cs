@@ -150,5 +150,46 @@ namespace LinkedListTests
         {
 
         }
+
+        [Fact]
+        public void Zip_Two_Lists()
+        {
+            LinkedList listA = new LinkedList();
+
+            listA.Insert(1);
+            listA.Insert(2);
+            listA.Insert(3);
+            listA.Insert(4);
+
+            LinkedList listB = new LinkedList();
+
+            listB.Insert(5);
+            listB.Insert(6);
+            listB.Insert(7);
+            listB.Insert(8);
+
+            Assert.Equal(4, LLzip.zip(listA, listB).Value);
+
+        }
+
+        [Fact]
+        public void Zip_Fail()
+        {
+            LinkedList listA = new LinkedList();
+            listA.Insert(5);
+            listA.Insert(6);
+            listA.Insert(7);
+            listA.Insert(8);
+
+            LinkedList listB = new LinkedList();
+
+            listB.Insert(5);
+            listB.Insert(6);
+            listB.Insert(7);
+            listB.Insert(8);
+
+            Assert.NotEqual(4, LLzip.zip(listA, listB).Value);
+        }
+
     }
 }
