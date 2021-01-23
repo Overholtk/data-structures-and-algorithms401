@@ -1,28 +1,29 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace LinkedLists
 {
-    public class LinkedList
+    public class LinkedList<T>
         {
 
-        public Node Head { get; set; }
+        public Node<T> Head { get; set; }
 
         public LinkedList() { }
 
-        public void Insert(int value)
+        public void Insert(T value)
             {
-                Node node = new Node(value);
+                Node<T> node = new Node<T>(value);
                 node.Next = Head;
                 Head = node;
             }
 
         public bool Includes(int value)
             {
-                Node current = Head;
+                Node<T> current = Head;
                 bool valueFound = false;
                 while (current != null)
                 {
-                    if(current.Value == value)
+                    if(current.Value.Equals(value))
                     {
                         valueFound = true;
                     }
@@ -33,7 +34,7 @@ namespace LinkedLists
 
         public string toString()
             {
-                Node current = Head;
+                Node<T> current = Head;
                 string allValues = "";
                 while(current != null)
                 {
@@ -44,27 +45,27 @@ namespace LinkedLists
             return allValues;
             }
 
-        public int append(int value)
+        public T append(T value)
         {
-            Node currentNode = Head;
+            Node<T> currentNode = Head;
             while(currentNode.Next != null)
             {
                 currentNode = currentNode.Next;
             }
-            Node newNode = new Node(value);
+            Node<T> newNode = new Node<T>(value);
             currentNode.Next = newNode;
             return newNode.Value;
         }
 
-        public int insertBefore(int value, int newVal)
+        public T insertBefore(T value, T newVal)
         {
-            Node currentNode = Head;
-            Node previousNode = Head;
+            Node<T> currentNode = Head;
+            Node<T> previousNode = Head;
             while(currentNode != null)
             {
-                if(currentNode.Value == newVal)
+                if(currentNode.Value.Equals(newVal))
                 {
-                    Node newNode = new Node(newVal);
+                    Node<T> newNode = new Node<T>(newVal);
                     previousNode.Next = newNode;
                     newNode.Next = currentNode;
                     break;
@@ -75,13 +76,13 @@ namespace LinkedLists
             return currentNode.Value;
         }
 
-        public int insertAfter(int value, int newVal)
+        public T insertAfter(T value, T newVal)
         {
-            Node current = Head;
-            Node newNode = new Node(value);
+            Node<T> current = Head;
+            Node<T> newNode = new Node<T>(value);
             while(current != null)
             {
-                if(current.Value == value)
+                if(current.Value.Equals(value))
                 {
                     newNode.Next = current.Next;
                     current.Next = newNode;
@@ -92,11 +93,11 @@ namespace LinkedLists
             return newNode.Value;
         }
 
-        public int kthFromEnd(int value)
+        public T kthFromEnd(int value)
         {
             if(value < 0) { throw new ArgumentException("Try again with a positive value!");}
             int counter = 1;
-            Node node = Head;
+            Node<T> node = Head;
             while(node != null)
             {
                 counter++;
@@ -114,11 +115,11 @@ namespace LinkedLists
 
         }
 
-        public LinkedList zip(LinkedList listA, LinkedList listB)
+        public LinkedList<T> zip(LinkedList<T> listA, LinkedList<T> listB)
         {
-            Node A = listA.Head;
-            Node B = listB.Head;
-            Node C;
+            Node<T> A = listA.Head;
+            Node<T> B = listB.Head;
+            Node<T> C;
             while(A.Next != null && B.Next != null)
             {
                 C = B.Next;
