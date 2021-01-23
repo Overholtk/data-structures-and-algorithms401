@@ -33,3 +33,13 @@ kthFromEnd returns the value of a specific node found by iterating backwards alo
 
 ### zip:
 loops through two linked lists and zips them together with the format A - B - A - B - A - B by resetting the nodes.Next values
+
+# Code Challenge 10: Stack and Queue Implementation
+
+## Challenge Summary
+Create stack and queue classes, and methods that add, remove, and return information about them. 
+
+## Challenge Description and Approach & Efficiency
+In the stack method things were fairly simple and returned values or made edits by checking to see if the first node was null and then making changes to or around that node. All these operations would be O1, because they are either returning nothing or returning a single value.
+
+In the queue method things got a little more complex due to exceptions being thrown if the queue was empty, however the operations work mostly the same, and have the same Big O cost.
