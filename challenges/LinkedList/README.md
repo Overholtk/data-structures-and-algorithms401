@@ -43,3 +43,9 @@ Create stack and queue classes, and methods that add, remove, and return informa
 In the stack method things were fairly simple and returned values or made edits by checking to see if the first node was null and then making changes to or around that node. All these operations would be O1, because they are either returning nothing or returning a single value.
 
 In the queue method things got a little more complex due to exceptions being thrown if the queue was empty, however the operations work mostly the same, and have the same Big O cost.
+
+## Enqueue:
+Takes in a value and adds it to the front of the stack, returns the value at the top of the stack for testability. O1 operation space, O1 time.
+
+## Dequeue:
+Iterates through the list to get the value at the bottom of the stack, then pops it from the list and returns that node. 01 operation space, O1 time.
