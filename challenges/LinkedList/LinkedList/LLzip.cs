@@ -6,12 +6,12 @@ namespace LinkedLists
 {
     public class LLzip
     {
-        public static Node zip(LinkedList listA, LinkedList listB)
+        public static Node<int> zip(LinkedList<int> listA, LinkedList<int> listB)
         {
 
-            Node A = listA.Head;
-            Node B = listB.Head;
-            Node C;
+            Node<int> A = listA.Head;
+            Node<int> B = listB.Head;
+            Node<int> C;
             while (B.Next != null || A.Next != null)
             {
                 C = B.Next;

@@ -3,8 +3,9 @@
     "",
     "\\challenges",
     "\\challenges\\LinkedList",
-    "\\challenges\\LinkedList\\LinkedList"
+    "\\challenges\\LinkedList\\LinkedList",
+    "\\challenges\\LinkedList\\LinkedListTests"
   ],
-  "SelectedNode": "\\challenges\\LinkedList\\LinkedList\\LinkedList.cs",
+  "SelectedNode": "\\challenges\\LinkedList\\LinkedListTests\\UnitTest1.cs",
   "PreviewInSolutionExplorer": false
 }

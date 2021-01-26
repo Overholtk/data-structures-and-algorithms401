@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
 
 namespace LinkedLists
@@ -14,7 +13,7 @@ namespace LinkedLists
             return top != null;
         }
 
-        public void push(T value)
+        public void Push(T value)
         {
             Node<T> node = new Node<T>(value);
             node.Next = top;
@@ -25,6 +24,7 @@ namespace LinkedLists
         {
             Node<T> currentTop = top;
             top = currentTop.Next;
+            currentTop.Next = null;
             return currentTop;
 
         }
