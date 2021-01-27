@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LinkedLists
 {
-    class Queue<T>
+    public class Queue<T>
     {
         public Node<T> front { get; set; }
 
