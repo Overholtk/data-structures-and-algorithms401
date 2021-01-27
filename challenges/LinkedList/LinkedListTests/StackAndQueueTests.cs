@@ -61,5 +61,50 @@ namespace LinkedListTests
             PseudoQueue<int> queue = new PseudoQueue<int>();
             Assert.Null(queue.dequeue());
         }
+
+        [Fact]
+        public void Shelter_Enqueue_Expected()
+        {
+            FIFOAnimalShelter shelter = new FIFOAnimalShelter();
+            Animal cat = new Cat();
+            Assert.Equal(cat,shelter.Enqueue(cat));
+        }
+
+        [Fact]
+        public void Shelter_Enqueue_Fail()
+        {
+            FIFOAnimalShelter shelter = new FIFOAnimalShelter();
+            Assert.Null(shelter.shelterAnimals.front);
+        }
+
+        [Fact]
+        public void Shelter_Dequeue_Expected()
+        {
+            FIFOAnimalShelter shelter = new FIFOAnimalShelter();
+            Animal cat = new Cat();
+            Animal dog = new Dog();
+            shelter.Enqueue(cat);
+            shelter.Enqueue(dog);
+            Assert.Equal(cat, shelter.Dequeue("cat"));
+
+        }
+
+        [Fact]
+        public void Shelter_Dequeue_Fail()
+        {
+            FIFOAnimalShelter shelter = new FIFOAnimalShelter();
+            Assert.Null(shelter.Dequeue("dog"));
+        }
+
+        [Fact]
+        public void Shelter_Dequeue_Incorrect_Value()
+        {
+            FIFOAnimalShelter shelter = new FIFOAnimalShelter();
+            Animal cat = new Cat();
+            Animal dog = new Dog();
+            shelter.Enqueue(cat);
+            shelter.Enqueue(dog);
+            Assert.Null(shelter.Dequeue("fish"));
+        }
     }
 }
