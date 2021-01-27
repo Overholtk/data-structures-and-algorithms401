@@ -49,3 +49,13 @@ Takes in a value and adds it to the front of the stack, returns the value at the
 
 ## Dequeue:
 Iterates through the list to get the value at the bottom of the stack, then pops it from the list and returns that node. 01 operation space, O1 time.
+
+# Code Challenge 12: FIFO Animal Shelter
+
+## Challenge Summary
+Create an animal shelter class that accepts cats and dogs, then adds new animals to the shelter and returns animals to be adopted.
+
+## Challenge Description and Approach & Efficiency
+Enqueue just calls a previous method to add the new animal object to the back of the queue. This is a O1 space and time operation because it adds one value, and returns one value.
+
+Dequeue is more complicated. It iteratates through the array and stores the animals that do not match the chosen value, then saves the first instance of that value and reorders the queue before returning the proper animal object. This is a O1 space operation (returns one value), and an ON time operation because it has to iterate through the entire list, regardless of length.
