@@ -1,14 +1,11 @@
 ﻿using System;
 
-namespace MultiBracketValidation
+namespace MultiBracketValidations
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("false: " + MultiBracketValidation("fjdslf"));
-            Console.WriteLine("true: " + MultiBracketValidation("[fsds]"));
-            Console.WriteLine("false: " + MultiBracketValidation(""));
             Console.WriteLine("false: " + MultiBracketValidation("((sf)"));
         }
 
@@ -19,7 +16,7 @@ namespace MultiBracketValidation
         /// <returns>true if brackets are balanced, false if brackets are imbalanced or none exist</returns>
         public static bool MultiBracketValidation(string s)
         {
-            bool returnVal = false;
+            bool returnVal = true;
             if(s == "") { returnVal = false; }
             if(!s.Contains("(") && !s.Contains("[") && !s.Contains("{")) { returnVal = false;  }
             char[] sArr = s.ToCharArray();
@@ -31,8 +28,9 @@ namespace MultiBracketValidation
                         if (sArr[j] == ')')
                         {
                             sArr[j] = '.';
-                            returnVal = true;
+                            break;
                         }
+                        else if(j == sArr.Length - 1 && sArr[j] != ')'){ returnVal = false; }
                     }
                 }
                 if(sArr[i] == '[') {
@@ -41,8 +39,9 @@ namespace MultiBracketValidation
                         if (sArr[j] == ']')
                         {
                             sArr[j] = '.';
-                            returnVal = true;
+                            break;
                         }
+                        else if (j == sArr.Length - 1 && sArr[j] != ']') { returnVal = false; }
                     }
                 }
                 if(sArr[i] == '{') {
@@ -51,8 +50,9 @@ namespace MultiBracketValidation
                         if (sArr[j] == '}')
                         {
                             sArr[j] = '.';
-                            returnVal = true;
+                            break;
                         }
+                        else if (j == sArr.Length - 1 && sArr[j] != '}') { returnVal = false; }
                     }
                 }
             }
