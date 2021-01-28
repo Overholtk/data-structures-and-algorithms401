@@ -20,3 +20,9 @@ Code Challenge 8
 Code Challenge 9
 
 Code Challenge 10
+
+Code Challenge 11
+
+Code Challenge 12
+
+[Code Challenge 13](https://github.com/Overholtk/data-structures-and-algorithms/tree/main/challenges/MultiBracketValidation)
