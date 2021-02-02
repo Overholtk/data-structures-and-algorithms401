@@ -1,0 +1,13 @@
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Trees\Trees\bin\Debug\netcoreapp3.1\Trees.exe
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Trees\Trees\bin\Debug\netcoreapp3.1\Trees.deps.json
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Trees\Trees\bin\Debug\netcoreapp3.1\Trees.runtimeconfig.json
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Trees\Trees\bin\Debug\netcoreapp3.1\Trees.runtimeconfig.dev.json
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Trees\Trees\bin\Debug\netcoreapp3.1\Trees.dll
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Trees\Trees\bin\Debug\netcoreapp3.1\Trees.pdb
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Trees\Trees\obj\Debug\netcoreapp3.1\Trees.csprojAssemblyReference.cache
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Trees\Trees\obj\Debug\netcoreapp3.1\Trees.AssemblyInfoInputs.cache
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Trees\Trees\obj\Debug\netcoreapp3.1\Trees.AssemblyInfo.cs
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Trees\Trees\obj\Debug\netcoreapp3.1\Trees.csproj.CoreCompileInputs.cache
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Trees\Trees\obj\Debug\netcoreapp3.1\Trees.dll
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Trees\Trees\obj\Debug\netcoreapp3.1\Trees.pdb
+C:\Users\moreg\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Trees\Trees\obj\Debug\netcoreapp3.1\Trees.genruntimeconfig.cache
