@@ -86,5 +86,41 @@ namespace Trees
             testList.Add(7);
             Assert.Equal(testList, BinaryTree.PostOrder(tree.Root, values));
         }
+
+        [Fact]
+        public void Get_Breadth_Values()
+        {
+            BinaryTree tree = new BinaryTree();
+            BinarySearchTree.Add(null, 12, tree);
+            BinarySearchTree.Add(tree.Root, 5, tree);
+            BinarySearchTree.Add(tree.Root, 16, tree);
+            BinarySearchTree.Add(tree.Root, 8, tree);
+            //values added to list in order expected to be outputted
+            List<int> valuesList = new List<int>();
+            valuesList.Add(12);
+            valuesList.Add(5);
+            valuesList.Add(8);
+            valuesList.Add(16);
+            List<int> values = new List<int>();
+            Assert.Equal(valuesList, BinaryTree.BreadthFirst(tree.Root, values, tree));
+        }
+
+        [Fact]
+        public void Breadth_Values_Fail()
+        {
+            BinaryTree tree = new BinaryTree();
+            BinarySearchTree.Add(null, 12, tree);
+            BinarySearchTree.Add(tree.Root, 5, tree);
+            BinarySearchTree.Add(tree.Root, 16, tree);
+            BinarySearchTree.Add(tree.Root, 8, tree);
+            //values added to list in same order inputted
+            List<int> valuesList = new List<int>();
+            valuesList.Add(12);
+            valuesList.Add(5);
+            valuesList.Add(16);
+            valuesList.Add(8);
+            List<int> values = new List<int>();
+            Assert.NotEqual(valuesList, BinaryTree.BreadthFirst(tree.Root, values, tree));
+        }
     }
 }

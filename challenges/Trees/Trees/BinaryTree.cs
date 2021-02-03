@@ -50,5 +50,23 @@ namespace Trees
             values.Add(node.Value);
             return values;
         }
+
+        public static List<int> BreadthFirst(Node node, List<int> values, BinaryTree tree)
+        {
+            values.Add(node.Value);
+            Node leftNode = node.Left;
+            Node rightNode = node.Right;
+            if(leftNode != null)
+            {
+            BreadthFirst(node.Left, values, tree);
+            }
+            if(rightNode != null)
+            {
+            BreadthFirst(node.Right, values, tree);
+            }
+            return values;
+        }
+
+
     }
 }

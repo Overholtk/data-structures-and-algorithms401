@@ -2,10 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\challenges",
-    "\\challenges\\LinkedList",
-    "\\challenges\\LinkedList\\LinkedList",
-    "\\challenges\\LinkedList\\LinkedListTests"
+    "\\challenges\\Trees",
+    "\\challenges\\Trees\\Trees"
   ],
-  "SelectedNode": "\\challenges\\LinkedList\\README.md",
+  "SelectedNode": "\\challenges\\Trees\\Trees\\BinarySearchTree.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -27,3 +27,9 @@ Checks whether the value chosen is greater than, less than, or equal to the chos
 
 O(LogN) Time
 O(1) Space
+
+### BreadthTraversal:
+Traverse through a tree and output a list of values ordered in the way they would be encountered in a list. This method grabs a node and inserts it into the list, then grabs that node's left and right properties. It continues to run recursively by grabbing subtrees and putting the root value into the list, and then returns a value once all the nodes come back as null.
+
+O(N) Time
+O(N) Space
