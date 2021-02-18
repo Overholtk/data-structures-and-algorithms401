@@ -2,9 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\challenges",
+    "\\challenges\\ArrayShift",
+    "\\challenges\\ArrayShift\\ArrayShift",
+    "\\challenges\\ArraySort",
+    "\\challenges\\ArraySort\\ArraySort",
     "\\challenges\\Trees",
     "\\challenges\\Trees\\Trees"
   ],
-  "SelectedNode": "\\challenges\\Trees\\Trees\\BinarySearchTree.cs",
+  "SelectedNode": "\\challenges\\ArraySort\\ArraySort",
   "PreviewInSolutionExplorer": false
 }
