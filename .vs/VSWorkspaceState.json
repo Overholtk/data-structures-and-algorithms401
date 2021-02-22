@@ -2,13 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\challenges",
-    "\\challenges\\ArrayShift",
-    "\\challenges\\ArrayShift\\ArrayShift",
     "\\challenges\\ArraySort",
     "\\challenges\\ArraySort\\ArraySort",
+    "\\challenges\\ArraySort\\ArraySort\\ArraySort",
     "\\challenges\\Trees",
     "\\challenges\\Trees\\Trees"
   ],
-  "SelectedNode": "\\challenges\\ArraySort\\ArraySort",
+  "SelectedNode": "\\challenges\\ArraySort\\ArraySort\\ArraySort\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
