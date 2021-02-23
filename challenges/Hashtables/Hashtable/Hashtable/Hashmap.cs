@@ -51,6 +51,7 @@ namespace Hashtable
                 while(current != null)
                 {
                     if(current.Value.Key == key) { return current.Value.Value; }
+                    current = current.Next;
                 }
             }
             return null;
@@ -67,6 +68,7 @@ namespace Hashtable
                 while(current != null)
                 {
                     if(current.Value.Key == key) { exists = true; }
+                    current = current.Next;
                 }
             }
             return exists;
