@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moreg\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\ArrayShift\\ArrayShift\\ArrayShift.csproj",
+      "projectUniqueName": "C:\\Users\\moreg\\OneDrive\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\ArrayShift\\ArrayShift\\ArrayShift.csproj",
       "projectName": "ArrayShift",
-      "projectPath": "C:\\Users\\moreg\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\ArrayShift\\ArrayShift\\ArrayShift.csproj",
+      "projectPath": "C:\\Users\\moreg\\OneDrive\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\ArrayShift\\ArrayShift\\ArrayShift.csproj",
       "packagesPath": "C:\\Users\\moreg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moreg\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\ArrayShift\\ArrayShift\\obj\\",
+      "outputPath": "C:\\Users\\moreg\\OneDrive\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\ArrayShift\\ArrayShift\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\moreg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
