@@ -1,13 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\challenges",
-    "\\challenges\\ArraySort",
-    "\\challenges\\ArraySort\\ArraySort",
-    "\\challenges\\ArraySort\\ArraySort\\ArraySort",
-    "\\challenges\\Trees",
-    "\\challenges\\Trees\\Trees"
+    ""
   ],
-  "SelectedNode": "\\challenges\\ArraySort\\ArraySort\\ArraySort\\Program.cs",
+  "SelectedNode": "\\Hashtable.sln",
   "PreviewInSolutionExplorer": false
 }

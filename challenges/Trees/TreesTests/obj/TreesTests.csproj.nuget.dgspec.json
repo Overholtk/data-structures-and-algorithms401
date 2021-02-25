@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\moreg\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\TreesTests\\TreesTests.csproj": {}
+    "C:\\Users\\moreg\\OneDrive\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\TreesTests\\TreesTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\moreg\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\TreesTests\\TreesTests.csproj": {
+    "C:\\Users\\moreg\\OneDrive\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\TreesTests\\TreesTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moreg\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\TreesTests\\TreesTests.csproj",
+        "projectUniqueName": "C:\\Users\\moreg\\OneDrive\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\TreesTests\\TreesTests.csproj",
         "projectName": "TreesTests",
-        "projectPath": "C:\\Users\\moreg\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\TreesTests\\TreesTests.csproj",
+        "projectPath": "C:\\Users\\moreg\\OneDrive\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\TreesTests\\TreesTests.csproj",
         "packagesPath": "C:\\Users\\moreg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moreg\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\TreesTests\\obj\\",
+        "outputPath": "C:\\Users\\moreg\\OneDrive\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\TreesTests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
           "C:\\Users\\moreg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -32,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\moreg\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\Trees\\Trees.csproj": {
-                "projectPath": "C:\\Users\\moreg\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\Trees\\Trees.csproj"
+              "C:\\Users\\moreg\\OneDrive\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\Trees\\Trees.csproj": {
+                "projectPath": "C:\\Users\\moreg\\OneDrive\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\Trees\\Trees.csproj"
               }
             }
           }
@@ -84,26 +80,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\moreg\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\Trees\\Trees.csproj": {
+    "C:\\Users\\moreg\\OneDrive\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\Trees\\Trees.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moreg\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\Trees\\Trees.csproj",
+        "projectUniqueName": "C:\\Users\\moreg\\OneDrive\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\Trees\\Trees.csproj",
         "projectName": "Trees",
-        "projectPath": "C:\\Users\\moreg\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\Trees\\Trees.csproj",
+        "projectPath": "C:\\Users\\moreg\\OneDrive\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\Trees\\Trees.csproj",
         "packagesPath": "C:\\Users\\moreg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moreg\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\Trees\\obj\\",
+        "outputPath": "C:\\Users\\moreg\\OneDrive\\Documents\\Codefellows\\401\\data-structures-and-algorithms\\challenges\\Trees\\Trees\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
           "C:\\Users\\moreg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -142,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
