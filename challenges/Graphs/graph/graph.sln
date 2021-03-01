@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "graph", "graph\graph.csproj", "{28A1CDFC-1361-4D60-9848-3804A5DACDAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "graphtests", "graphtests\graphtests.csproj", "{FC9D77BA-0546-464E-9A47-BADC9919DA27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28A1CDFC-1361-4D60-9848-3804A5DACDAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A1CDFC-1361-4D60-9848-3804A5DACDAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A1CDFC-1361-4D60-9848-3804A5DACDAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A1CDFC-1361-4D60-9848-3804A5DACDAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC9D77BA-0546-464E-9A47-BADC9919DA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9D77BA-0546-464E-9A47-BADC9919DA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9D77BA-0546-464E-9A47-BADC9919DA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9D77BA-0546-464E-9A47-BADC9919DA27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD666A61-9F11-4E0D-B6F3-87C75B359E46}
+	EndGlobalSection
+EndGlobal
