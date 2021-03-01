@@ -1,0 +1,13 @@
+C:\Users\moreg\OneDrive\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Graphs\graph\graph\bin\Debug\netcoreapp3.1\graph.exe
+C:\Users\moreg\OneDrive\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Graphs\graph\graph\bin\Debug\netcoreapp3.1\graph.deps.json
+C:\Users\moreg\OneDrive\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Graphs\graph\graph\bin\Debug\netcoreapp3.1\graph.runtimeconfig.json
+C:\Users\moreg\OneDrive\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Graphs\graph\graph\bin\Debug\netcoreapp3.1\graph.runtimeconfig.dev.json
+C:\Users\moreg\OneDrive\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Graphs\graph\graph\bin\Debug\netcoreapp3.1\graph.dll
+C:\Users\moreg\OneDrive\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Graphs\graph\graph\bin\Debug\netcoreapp3.1\graph.pdb
+C:\Users\moreg\OneDrive\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Graphs\graph\graph\obj\Debug\netcoreapp3.1\graph.csprojAssemblyReference.cache
+C:\Users\moreg\OneDrive\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Graphs\graph\graph\obj\Debug\netcoreapp3.1\graph.AssemblyInfoInputs.cache
+C:\Users\moreg\OneDrive\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Graphs\graph\graph\obj\Debug\netcoreapp3.1\graph.AssemblyInfo.cs
+C:\Users\moreg\OneDrive\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Graphs\graph\graph\obj\Debug\netcoreapp3.1\graph.csproj.CoreCompileInputs.cache
+C:\Users\moreg\OneDrive\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Graphs\graph\graph\obj\Debug\netcoreapp3.1\graph.dll
+C:\Users\moreg\OneDrive\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Graphs\graph\graph\obj\Debug\netcoreapp3.1\graph.pdb
+C:\Users\moreg\OneDrive\Documents\Codefellows\401\data-structures-and-algorithms\challenges\Graphs\graph\graph\obj\Debug\netcoreapp3.1\graph.genruntimeconfig.cache
